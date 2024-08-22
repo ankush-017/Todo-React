@@ -1,4 +1,5 @@
 import React from 'react'
+import ankush from '../../assets/ankush.png'
 
 function About() {
   return (
@@ -23,7 +24,7 @@ function About() {
         <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12 justify-center ">
             <div className="box-border">
                 <img
-                    src="./src/assets/ankush.png"
+                    src={ankush}
                     alt="image"
                     className='rounded-lg'
                 />

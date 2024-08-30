@@ -47,7 +47,7 @@ function AddTodo() {
         <input
         type="text"
         className="bg-gray-800 rounded mr-3 border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-[2px] px-3 md:py-1 leading-8 transition-colors duration-200 ease-in-out"
-        placeholder="Enter a Todo..."
+        placeholder="Enter a Task..."
         value={input}
         onChange={handleChange}
         required
@@ -63,7 +63,7 @@ function AddTodo() {
       <input
           type="text"
           className="bg-gray-800 rounded mt-5 mx-5 border h-9 md:h-10 md:w-[500px] w-full border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-[2px] px-2 md:py-1 transition-colors duration-200 ease-in-out"
-          placeholder="Enter description..."
+          placeholder="Enter task description..."
           value={desc}
           onChange={handleDescChange}
           required

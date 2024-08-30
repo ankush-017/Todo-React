@@ -56,7 +56,7 @@ function AddTodo() {
         type="submit"
         className="text-white bg-[#ed5b1c] border-0 md:py-2 md:px-6 px-2 py-2 focus:outline-none hover:bg-[#0bb302] duration-500 rounded text-lg"
         >
-        Add Todo
+        Add Task
         </button>
       </div>
 
